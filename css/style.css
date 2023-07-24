@@ -1,0 +1,43 @@
+@import url(../css/clash-grotesk.css);
+
+:root {
+  --font-base: "ClashGrotesk-Semibold", sans-serif;
+  --font-text: "ClashGrotesk-Medium", sans-serif;
+}
+
+.navbar {
+  font-family: var(--font-base);
+}
+
+h1 {
+  font-family: var(--font-bold);
+}
+
+h2 {
+  font-family: var(--font-text);
+}
+
+.display-4 {
+  font-family: var(--font-bold);
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #b22222;
+}
+
+#gallery {
+  background-color: #b22222;
+}
+
+footer {
+  background-color: #b22222;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
